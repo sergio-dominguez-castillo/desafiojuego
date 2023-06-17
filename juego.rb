@@ -41,3 +41,12 @@ end
 # envio mensaje a la consola con la opcion del computador
   puts "Computador juega #{computer_option}"
 
+# comparacion de las elecciones e indicacion de resultado
+if option == rand_number
+    puts "Empataste"
+elsif (option == 0 && rand_number == 1) || (option == 1 && rand_number == 2) || (option == 2 && rand_number == 0)
+    puts "Perdiste"
+elsif (option == 0 && rand_number == 2) || (option == 1 && rand_number == 0) || (option == 2 && rand_number == 1)
+    puts "Ganaste"
+end
+
