@@ -14,17 +14,17 @@ while validacion == 0
                 puts "Argumento inválido: Debe ser piedra, papel o tijera"
             else
                 # cargo variable para jugar 
-                option = 0 if valor == 'tijera'
-                option = 1 if valor == 'piedra'
-                option = 2 if valor == 'papel'  
+                option = 0 if valor == 'piedra'
+                option = 1 if valor == 'papel'
+                option = 2 if valor == 'tijera'  
                 # cambio valor para romper el ciclo
                 validacion=1  
             end
     else
         # cargo variable para jugar 
-        option = 0 if arg == 'tijera'
-        option = 1 if arg == 'piedra'
-        option = 2 if arg == 'papel'  
+        option = 0 if arg == 'piedra'
+        option = 1 if arg == 'papel'
+        option = 2 if arg == 'tijera'  
         # cambio valor para romper el ciclo
         validacion=1
     end
