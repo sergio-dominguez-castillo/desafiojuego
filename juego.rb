@@ -1,3 +1,7 @@
+autor: Sergio Dominguez
+fecha: 16/06/2023
+modulo: introduccion a ruby
+
 arg = ARGV[0]
 
 validacion=0
